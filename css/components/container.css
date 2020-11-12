@@ -1,0 +1,66 @@
+.banner{
+    width: 100%;
+    background: rgb(3,1,1);
+    background: linear-gradient(90deg, rgba(16,11,0,1) 0%, rgba(75,121,9,0.6502976190476191) 100%),url(../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #EFFFC8;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container h2{
+    color: #3B341F;
+}
+
+.logo-container{
+ display: inline-block;
+ width: 150px;
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+.info-container{
+    display: inline-block;
+    width: 730px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.info-container p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.card{
+    width: 200px;
+    border-radius: 3px;
+    color: #3B341F;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card p{
+    font-size: 20px;
+    text-align: center;
+}

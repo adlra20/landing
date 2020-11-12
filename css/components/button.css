@@ -1,0 +1,47 @@
+/*--Global Styles--*/
+/*@import url('https://fonts.googleapis.com/css?family=Fjalla+One');*/
+
+.button{
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 38px;
+  font-size: 18px;
+  font-weight: bold ;
+  text-decoration: none;
+  color: #EFFFC8;
+  border: 2px solid #EFFFC8;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.button a span{
+  position: relative;
+  z-index: 2;
+}
+
+.button a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #85CB33;
+  transition: all .35s;
+}
+
+.button a:hover{
+  color: #EFFFC8;
+}
+
+.button a:hover:after{
+  width: 100%;
+}
