@@ -17,17 +17,15 @@
 }
 
 .logo-container{
- display: inline-block;
- width: 150px;
+ display: flex;
 }
 
 .logo-container img{
-    width: 100%;
+    width: 150px;
+    object-fit: contain;
 }
 
 .info-container{
-    display: inline-block;
-    width: 730px;
     padding-left: 10px;
     margin: 0;
 }
